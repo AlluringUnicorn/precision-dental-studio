@@ -44,6 +44,14 @@
   margin-right: 12px;
   border-radius: 50%;
   background-color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_arr{
+  width:22px;
+  height:22px;
 }
 
 .address {
