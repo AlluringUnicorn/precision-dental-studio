@@ -1,5 +1,11 @@
+// .header {
+//   // position: fixed;
+//   // z-index: 10;
+// }
+
 .container {
   @extend %container;
+  width:1440px;
   display: flex;
 }
 
@@ -49,13 +55,17 @@
   justify-content: center;
 }
 
-.nav_arr{
-  width:22px;
-  height:22px;
+.nav_arr {
+  width: 22px;
+  height: 22px;
 }
 
 .address {
   margin-right: 22px;
+}
+
+.lang{
+  margin-right: 28.5px;
 }
 
 .lang_ua {
