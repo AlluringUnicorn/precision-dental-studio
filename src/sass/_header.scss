@@ -7,6 +7,8 @@
   @extend %container;
   width:1440px;
   display: flex;
+  position: relative;
+  z-index: 10;
 }
 
 .logo {
