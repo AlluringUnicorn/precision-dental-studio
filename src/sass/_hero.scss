@@ -40,6 +40,9 @@
   align-items: center;
   margin: 0 auto;
   justify-content: space-evenly;
+  &:hover .hero-arrow-wrapper{
+    background-color: var(--accent-color);
+  }
 }
 
 .hero-arrow-wrapper {
@@ -64,5 +67,12 @@
     &:last-child{
         margin-bottom: 0;
     }
+  }
+}
+
+.socials-svg{
+  // stroke: var(--text-color);
+  &:hover{
+    stroke: var(--accent-color);
   }
 }

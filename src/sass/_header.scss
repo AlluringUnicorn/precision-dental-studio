@@ -29,6 +29,9 @@
 
 .nav > li {
   margin-right: 24px;
+  &:hover{
+    color: var(--accent-color);
+  }
   &:last-child {
     margin-right: 0;
   }
