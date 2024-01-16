@@ -21,7 +21,12 @@
         </p>
       </div>
       <div class="about-video-wrapper">
-        <video class="about-video" autoplay muted loop id="about_video">
+        <button active="false" type="button" class="play-btn">
+          <svg width="30" height="30" class="play-svg">
+            <use href="./images/sprite.svg#icon-play"></use>
+          </svg>
+        </button>
+        <video class="about-video" muted loop id="about_video">
           <source src="./videos/about_video.mp4" type="video/mp4" />
         </video>
       </div>
