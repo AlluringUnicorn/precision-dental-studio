@@ -36,4 +36,8 @@
   padding: 20px 24px;
   cursor: pointer;
   margin-left: 651px;
+  &:hover, &:focus {
+    background: var(--text-color);
+    color: var(--black-color);
+  }
 }
