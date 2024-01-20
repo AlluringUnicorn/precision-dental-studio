@@ -28,6 +28,13 @@
   }
 }
 
+.mykhailo-btn, .vitalii-btn, .dmytro-btn, .darina-btn{
+  border:none;
+  cursor:pointer;
+  background:none;
+    margin-bottom: 24px;
+}
+
 .doctors-card-arrow {
   position: absolute;
   left: 270px;
@@ -37,7 +44,7 @@
 .doctors-img {
   border-radius: 18px;
   width: 330px;
-  margin-bottom: 24px;
+
 }
 
 .doctors-name {
