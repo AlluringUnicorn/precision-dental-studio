@@ -54,6 +54,10 @@
   position: absolute;
   left: 285px;
   bottom: 45px;
+   &:hover{
+    stroke: var(--accent-color);
+    fill: var(--accent-color);
+   }
 }
 
 .doctors-description {
