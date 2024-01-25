@@ -1,2 +1,0 @@
-const e=document.getElementById("about_video");console.log(e);const o=document.querySelector(".play-btn");console.log(o);const c=document.querySelector(".play-svg");console.log(c),o.addEventListener("click",(function(){o.active?(e.pause(),o.active=!1,c.style.display="block"):(e.play(),o.active=!0,c.style.display="none")}));const t=document.querySelectorAll(".doctors-card-wrapper");console.log(t),[...t].forEach((e=>{e.addEventListener("click",(function(){e.classList.toggle("is-flipped")}))}));
-//# sourceMappingURL=index.13c98ea6.js.map
